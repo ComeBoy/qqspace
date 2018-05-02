@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!-- mybatis 操作数据库的配置信息,对数据库的映射配置 -->
+<configuration>
+	<!-- 注册mapper映射文件 -->
+	<mappers>
+		<!-- 接口 -->
+		<mapper class="com.lzz.dao.UserDao" />
+	</mappers>
+</configuration>
